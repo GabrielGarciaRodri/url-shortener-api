@@ -4,13 +4,13 @@ A minimal URL shortener REST API built with NestJS, Prisma, and SQLite. Create s
 
 ## Features
 
-- 🔗 **Shorten URLs** with auto-generated or custom codes
-- 🔄 **301 Redirects** with click tracking
-- 📊 **Stats endpoint** — see click count per URL
-- 🗂️ **List all URLs** — paginated, newest first
-- 🗑️ **Delete URLs** — clean up old links
-- ✅ **Input validation** with class-validator
-- 💾 **SQLite** — zero config, file-based database
+- **Shorten URLs** with auto-generated or custom codes
+- **301 Redirects** with click tracking
+- **Stats endpoint** — see click count per URL
+- **List all URLs** — paginated, newest first
+- **Delete URLs** — clean up old links
+- **Input validation** with class-validator
+- **SQLite** — zero config, file-based database
 
 ## Installation
 
