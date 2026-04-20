@@ -12,7 +12,7 @@ import {
 } from "@nestjs/common";
 import { Response } from "express";
 import { UrlService } from "./url.service";
-import { CreateUrlDto } from "./dto/create-url.dto";
+import { CreateUrlDto } from "../dto/create-url.dto";
 
 @Controller()
 export class UrlController {

@@ -4,7 +4,7 @@ import {
   ConflictException,
 } from "@nestjs/common";
 import { PrismaService } from "../prisma/prisma.service";
-import { CreateUrlDto } from "./dto/create-url.dto";
+import { CreateUrlDto } from "../dto/create-url.dto";
 import { nanoid } from "nanoid";
 
 @Injectable()
